@@ -1,0 +1,42 @@
+header{
+    background-color: #20232A;
+    color: white;
+    padding: 20px 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__right{
+    width: 600px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.navbar__right input{
+    background-color: #FFE600;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+.autocomplete{
+   background-color: white;
+   list-style: none;
+   max-height: 100px;
+   overflow-y: scroll;
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+   padding-left: 0px;
+}
+.autocomplete_item{
+    padding: 5px;
+    color: rgb(3, 2, 2);
+}
+.autocomplete_item:hover{
+    background: rgb(180, 180, 180);
+    cursor: pointer;
+    transition: cubic-bezier(1, 0, 0, 1) .3s all;
+}
